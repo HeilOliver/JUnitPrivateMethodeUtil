@@ -23,6 +23,10 @@ class TestClass{
         return (s0 + s1 + s2);
     }
 
+    private <T> T withGenericParameterAndReturn(T a) {
+        return a;
+    }
+
     int getResult() {
         return _result;
     }

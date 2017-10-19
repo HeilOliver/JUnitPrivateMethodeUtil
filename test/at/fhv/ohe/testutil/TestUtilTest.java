@@ -70,4 +70,18 @@ class TestUtilTest {
             assertTrue(true);
         }
     }
+
+    // doesn't work at the moment :(
+    @Test
+    void methodCall_withGenericParameterAndReturn() throws Exception {
+        TestClass testClass = new TestClass();
+        int a = 5;
+        int expResult = 5;
+        int result;
+
+        //result = PrivateMethodTestUtil.privateMethodCall(testClass, "withGenericParameterAndReturn",a);
+        //assertTrue(result == expResult);
+    }
+
+
 }
